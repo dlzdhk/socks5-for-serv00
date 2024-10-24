@@ -34,4 +34,3 @@ jobs:
           done < <(jq -c '.[]' accounts.json)
           chmod +x sshpass.sh
 
-      - name: Execute SSH Commands
